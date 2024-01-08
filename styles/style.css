@@ -3,13 +3,16 @@ body{
     font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;
 
+}
+.inter-font{
+    font-family: 'Inter', sans-serif;
 
 }
 
 /*banner related styles*/
 .banner{
     background-image: url(../images/Banner\ Image.png);
-    background: linear-gradient;
+    border-radius: 16px;
 
     width: 1320px;
     height: 600px;
@@ -35,4 +38,36 @@ font-family: 'Open Sans', sans-serif;
     line-height: 95px;
     color: #FFF;    
 }
+/*main section*/
+.parcent-size{
+    color: #F00;
+text-align: center;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: -1px;
+}
+.parcent-text{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
 
+}
+.catagori{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -14px;
+}
+
+.newyear{
+    display:flex ;
+    justify-content: center;
+
+}
+.newyear-img{
+    width: 800px;
+    height: 500px;
+
+}
