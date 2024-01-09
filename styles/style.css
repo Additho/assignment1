@@ -236,3 +236,44 @@ align-items: center;
 justify-content: center;
 margin-top: 80px;
 }
+
+.all-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.main_img{
+    width: 424px;
+height: 450px;
+
+}
+
+.img_section{
+    width: 1320px;
+    margin: auto;
+}
+#best-gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 120px;
+
+}
+#our-prtfolio{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: -7px;
+}
+#prtfolio-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+width: 896px;
+margin-top: -21px;
+}
